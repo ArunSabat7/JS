@@ -1,0 +1,35 @@
+body {
+    background: tomato
+}
+
+.fill {
+    background-image: url('https://source.unsplash.com/user/erondu/1600x900');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 2px solid green;
+    background-color: white;
+}
+
+.hold {
+    border: 3px solid purple;
+}
+
+.hovered {
+    background: cyan;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
